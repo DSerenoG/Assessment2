@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <div id = "head">
+        <ul>
+             <h1>Better Life</h1>
+        </ul>
+    </div>
+    
+    <div id ="main_section">
+        
+        <reason style="width:40%">
+            <h2>Why should we all take suplements: </h2>
+            <p>Our daily diet should be composed of nutrients that fulfill all our needs, that is, it should contain carbohydrates, proteins, vitamins, fibers, amino acids, fatty acids, minerals. Everything we need can be found in fresh and healthy foods, cereals, vegetables, vegetables, meats that are part of a normal menu.
+            Unfortunately, the modern model of life does not allow meals to be eaten as they used to, at a time when families were meeting for lunch and dinner, where one could have more peace of mind on a day-to-day basis, when there was less demand. rush and so much need of locomotion. <span id="dots">...</span><span id="more">
+            That's where the supplements come in. Supplements are nothing more than complements of the nutrients we need, but produced chemically, so that we have in our bodies what normal food could provide us.
+            Some supplements, by the way, have even more components than traditional foods, which makes it possible for us to adapt better to a diet of weight loss for example. 
+             </span></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+        </reason>
+        
+        <suplement1  id="b1">
+            <h2>Vitamin C</h2>
+            <p>Vitamin C is a nutrient that we need to have good health. We can get it through food or through supplements.</p>
+            <p>The minimum recommended amount is 300 mg daily.</p>
+            <a href="suplement_1.html">Read More</a>
+        </suplement1>
+        
+        <suplement2  id="boxes">
+            <h2>Magnesium</h2>
+            <p>Magnesium is an essential mineral for our body. Although many foods contain it, the poor quality of the land, increasingly malnourished and devitalized, causes it to have less magnesium.</p>
+            <a href="suplement_2.html">Read More</a>
+            
+        </suplement2>
+        
+        <suplement3  id="boxes">
+            <h2>Spirulina</h2>
+            <p>It is an algae that also acts as a superfood because of its high and complex nutritional values. It is rich in proteins, essential amino acids, vitamins, minerals, antioxidants, enzymes and fiber.</p>
+             <a href="suplement_3.html">Read More</a>
+        </suplement3>
+        
+        <suplement4 id="boxes">
+            <h2>Sea Water</h2>
+            <p>Nowadays we can find sea water to consume in some supermarkets and dieticians. </p>
+            <a href="suplement_4.html">Read More</a>
+        </suplement4>
+        
+        <suplement5 style="width:80%" >
+            <h2>Probiotics</h2>
+            <p>Probiotics are supplements that improve intestinal bacterial flora. It is not only related to a good function of the intestine, but is also fundamental to enjoy good general health.</p>
+            <a href="suplement_5.html">Read More</a>
+        </suplement5>
+        
+        
+        
+        <script type="text/javascript">
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
+        
+        <privacy id="p">
+              <a href="privacy.html">Privacy and Policy</a>
+        </privacy>
+        
+    </div>
+</body>
+</html>
